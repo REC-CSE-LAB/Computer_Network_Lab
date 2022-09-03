@@ -61,15 +61,15 @@ int main()
 
 //     case 1:
 //     -------
-//          Enter the 7-bit message: 1011001
+//          Enter the 7-bit message: 1011001     /* Input */
 //          The 11-bit data sequence at the sender: 1 0 1 0 0 1 1 1 0 0 1
-//          Enter the 11-bit data sequence at receiver: 10100101001
+//          Enter the 11-bit data sequence at receiver: 10100101001     /* Input */
 //          There is an error in 7 bit position in the data sequence.
 //          After correction of the error, The data sequence is : 1 0 1 0 0 1 0 1 0 0 1
 
 //      case 2:
 //      -------
-//          Enter the 7-bit message: 1011001
+//          Enter the 7-bit message: 1011001     /* Input */
 //          The 11-bit data sequence at the sender: 1 0 1 0 0 1 1 1 0 0 1
-//          Enter the 11-bit data sequence at receiver: 10100111001
+//          Enter the 11-bit data sequence at receiver: 10100111001     /* Input */
 //          There is no error in the data sequence, The data sequence is : 1 0 1 0 0 1 1 1 0 0 1
