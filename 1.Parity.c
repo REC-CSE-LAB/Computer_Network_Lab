@@ -42,3 +42,32 @@ int main()
 
     return 0;
 }
+
+//  Input/Output:-
+//  ------------
+
+//     case 1:
+//     ------
+//         Enter the 8 bit string: 01100110
+//         Enter x for even parity and y for odd parity: x
+//         Entered string is even parity
+
+//     case 2:
+//     ------
+//         Enter the 8 bit string: 00101010
+//         Enter x for even parity and y for odd parity: x
+//         append 1 to string
+//         String: 001010101
+
+//     case 3:
+//     ------
+//         Enter the 8 bit string: 00101100
+//         Enter x for even parity and y for odd parity: y
+//         Entered string is odd parity
+
+//     case 4:
+//     ------
+//         Enter the 8 bit string: 01110100
+//         Enter x for even parity and y for odd parity: y
+//         append 1 to string
+//         String: 011101001
