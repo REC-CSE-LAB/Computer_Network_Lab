@@ -22,7 +22,7 @@ int main()
     v = c[0] + c[1] + c[2] + c[3];
 
     if (v % 2 == 0)
-        puts("There is No error in received Data frame Destination.");
+        puts("There is No error in received Data frame at the Destination.");
 
     else
     {
@@ -61,4 +61,4 @@ int main()
 //          11111111            /* Input */
 //          Enter the frame 4:
 //          11110000            /* Input */
-//          There is No error in received Data frame Destination.
+//          There is No error in received Data frame at the Destination.
