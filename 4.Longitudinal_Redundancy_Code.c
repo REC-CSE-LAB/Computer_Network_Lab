@@ -17,14 +17,13 @@ int main()
         p = f[0][i] ^ f[1][i] ^ f[2][i] ^ f[3][i] ^ f[4][i];
         if( p )
         {
-            printf("There is an Error in Received Data Frame.");
+            printf("There is an Error in Received Data Frames.");
             exit(1);
         }
     }
-    printf("There is NO Error in Received Data Frame.");
+    printf("There is NO Error in Received Data Frames.");
     return 0;
 }
-
 
 // Input/Output:-
 // -----------
