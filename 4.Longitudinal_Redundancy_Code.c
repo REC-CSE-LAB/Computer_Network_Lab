@@ -55,3 +55,4 @@ int main()
 //         11100010
 //         Enter Data Frame 5:
 //         01001111
+//         There is an Error in Received Data Frame.
