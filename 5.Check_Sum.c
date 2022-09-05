@@ -21,11 +21,41 @@ int main()
     }
     for( i = 0; i < 8; ++i )
     {
+        
         temp = sum[i]^f[3][i];
         if( temp == 0 )
         {
-            printf("")
+            printf("There is an Error in Received Data Frames.");
+            exit(1);
         }
     }
+    printf("There is NO Error in Received Data Frames.");
     return 0;
 }
+
+// Input/Output:-
+// ------------
+    
+//     Case 1:
+//     -------
+//         Enter the Data Frame 1:
+//         10101001                 /* Input */
+//         Enter the Data Frame 2:
+//         00111001                 /* Input */
+//         Enter the Data Frame 3:
+//         00011101                 /* Input */
+//         Enter the Data Frame 4:
+//         00000000                 /* Input */
+//         There is NO Error in Received Data Frames.
+        
+//     Case 2:
+//     -------
+//         Enter the Data Frame 1:
+//         10101001                 /* Input */
+//         Enter the Data Frame 2:
+//         00111001                 /* Input */
+//         Enter the Data Frame 3:
+//         00011100                 /* Input */
+//         Enter the Data Frame 4:
+//         00000000                 /* Input */
+//         There is an Error in Received Data Frames.
